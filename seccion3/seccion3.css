@@ -1,0 +1,20 @@
+.contenedor{
+    max-width: 375px;
+    height: 150px;
+
+}
+table {
+    cursor: pointer;
+
+    width: 375px;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
