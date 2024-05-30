@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -13,7 +12,6 @@ body {
     align-items: center;
     padding: 10px 20px;
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 375px;
     width: 100%;
     box-sizing: border-box;
@@ -29,7 +27,7 @@ body {
 
 .header-button {
     background-color: #ff9100;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -38,5 +36,5 @@ body {
 }
 
 .header-button:hover {
-    background-color: #0056b3;
+    background-color: #ff9100;
 }
